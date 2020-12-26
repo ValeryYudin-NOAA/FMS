@@ -523,7 +523,7 @@ private
 !  parameters for table size and resolution
 
  integer, public :: tcmin = -160  ! minimum temperature (degC) in lookup table
- integer, public :: tcmax =  100  ! maximum temperature (degC) in lookup table
+ integer, public :: tcmax =  160  ! maximum temperature (degC) in lookup table
  integer :: esres =  10   ! table resolution (increments per degree)
  integer :: nsize  ! (tcmax-tcmin)*esres+1    !  lookup table size
  integer :: nlim   ! nsize-1
